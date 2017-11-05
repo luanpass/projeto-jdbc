@@ -2,13 +2,13 @@ package br.com.luan.jdbc.entidades;
 
 public class Artista {
 	
-	private int codigoArtista;
+	private Integer codigoArtista;
 	private String nomeArtista;
 	
-	public int getCodigoArtista() {
+	public Integer getCodigoArtista() {
 		return codigoArtista;
 	}
-	public void setCodigoArtista(int codigoArtista) {
+	public void setCodigoArtista(Integer codigoArtista) {
 		this.codigoArtista = codigoArtista;
 	}
 	public String getNomeArtista() {
